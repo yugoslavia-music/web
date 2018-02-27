@@ -89,7 +89,7 @@ h1 {
 /*-- Banner-Starts-Here --*/
 
 .banner {
-  	background: url("../images/banner.jpg");
+  	background: url(https://i.imgur.com/Qxq0jrk.jpg);
   	background-repeat: no-repeat;
   	background-size: cover;
     background-position: center;
@@ -107,7 +107,7 @@ h1 {
 /*-- Navbar-Starts-Here --*/
 
 .navbar-default {
-    background-color: transparent;
+    background-color: #121212 !important;
     border-color: transparent;
     border: none;
 }
@@ -701,7 +701,7 @@ ul.social li a.itunes:hover {
 }
 .copyright p {
     font-size: 18px;
-    font-family: 'Oswald-Light';
+    font-family: monospace;
     color: #FFF;
 }
 .copyright a {
