@@ -446,7 +446,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 1280px;
+    height: 600px;
     -webkit-box-shadow: 1px 0px 135px 13px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 0px 135px 13px rgba(0,0,0,0.75);
     box-shadow: 1px 0px 135px 13px rgba(0,0,0,0.75);
@@ -553,8 +553,12 @@ ul.icons li a.gplus:hover {
 
 .downloads {
     position: relative;
-    top: 40%;
+    top: 0;
     left: 5%;
+}
+.bg-lr {
+height:695;
+	background:url(https://cdn.plug.dj/_/static/images/index/join.afd319b5589141e2da05520fa177b731e28f125e.jpg);
 }
 div#download {
     position: absolute;
