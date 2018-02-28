@@ -218,9 +218,14 @@
                            <td>Turn on slow mode in room for [default 30 sec]</td>
                         </tr>
                         <tr>
-                           <td><span class="label label-success">Featured</span> !mehautoban</td>
+                           <td>!mehautoban</td>
                            <td>null or [number]</td>
                            <td>Turn on auto ban if user keeps clicking meh [number] times</td>
+                        </tr>
+			  <tr>
+                           <td>!shuffle</td>
+                           <td>null</td>
+                           <td>Shuffle Bot Playlist</td>
                         </tr>
                      </tbody>
                   </table>
@@ -455,6 +460,31 @@
                               <td>[@user]</td>
                               <td>Give it a try</td>
                         </tr>
+			  <tr>
+                              <td>!showplaylist</td>
+                              <td>null</td>
+                              <td>Display bot playlist</td>
+                        </tr>
+			  <tr>
+          <td>!play</td>
+          <td>null</td>
+          <td>Add bot to wait list</td>
+        </tr>
+			  <tr>
+          <td>!leave</td>
+          <td>null</td>
+          <td>Remove bot from wait list</td>
+        </tr>
+			  <tr>
+          <td>!dj</td>
+          <td>null</td>
+          <td>Replacement for !play and !leave</td>
+        </tr>
+			  tr>
+          <td>!switchplaylist</td>
+          <td>[number]</td>
+          <td>Switch to another playlist on bot account</td>
+        </tr>
                   </tbody>
             </table>
                
@@ -692,22 +722,56 @@
           <td>See how much bot loves you</td>
         </tr>
         <tr>
-          <td>!random</td>
+          <td>!roll</td>
           <td>null</td>
           <td>Hit the lucky number 6 and win first place in wait list</td>
         </tr>
 <tr>
-          <td>!play</td>
-          <td>null</td>
-          <td>Ask Dave to join wait list, but you need to remove it later by typing !play again.</td>
+          <td>!yo</td>
+          <td>@user</td>
+          <td>Yokes about momma</td>
         </tr>
-<tr>
-          <td>!discord</td>
+	<tr>
+          <td>!grab</td>
           <td>null</td>
-          <td>Get an invite link for our discord room.</td>
+          <td>Grab current song to bot playlist</td>
+        </tr>
+	      <tr>
+          <td>!uptime</td>
+          <td>null</td>
+          <td>Check how much bot has been online</td>
+        </tr>
+	      <tr>
+          <td>!props</td>
+          <td>null</td>
+          <td>Reward current dj for awesome music</td>
+        </tr>
+	       <tr>
+          <td>!match</td>
+          <td>@user</td>
+          <td>Love Calculator</td>
         </tr>
       </tbody>
     </table>
+	      
+	      <h2 style="padding-bottom:20px;">#su (super user)</h2>
+                <table class="cmd-rdj" style="margin-bottom:50px;">
+                  <thead>
+                        <tr>
+                              <th>Command</th>
+                              <th>Argument</th>
+                              <th>Description</th>
+                        </tr>
+                  </thead>
+                  <tbody>
+                   <tr>
+                              <td>!givetokens</td>
+                              <td>@user</td>
+                              <td>Give random tokens between 1-3 to user</td>
+                        </tr>
+     
+                  </tbody>
+            </table>
 		    
 		   <h2 style="padding-bottom:10px;">#Special Options (Talk with BOT)</h2>
 		    
@@ -717,12 +781,13 @@
     </a>
   </div>
   <div class="media-body">
-    <h4 class="media-heading">Pisanjem na chatu Bot odgovarane na sljedece recenice!</h4>
-	  <p>Kako?, Kako, Sto, Sto?, Kada?, Kada, Gdje?, Gdje, S kim, S kim?</p>
-	  <p>Ispricaj mi vic, Ispricaj mi vic</p>
-	  <p>Tell me a joke, tell me a joke</p>
-    <h4 class="media-heading">[@bot] [question]</h4>
-	  <p>@A.I Tom Volis li me?<br>
+    <h3 class="media-heading"># Pisanjem na chatu Bot odgovarane na sljedece recenice!</h3>
+	  <p style="font-weight: bold;">Kako?, Kako, Sto, Sto?, Kada?, Kada, Gdje?, Gdje, S kim, S kim?</p>
+	  <p style="font-weight: bold;">Ispricaj mi vic, Ispricaj mi vic</p>
+	  <p style="font-weight: bold;">Tell me a joke, tell me a joke</p>
+	  <p style="font-weight: bold;">Tell me a joke about chuck, tell me a joke about chuck</p>
+    <h3 class="media-heading"># [@bot] [question]</h3>
+	  <p style="font-weight: bold;">@A.I Tom Volis li me?<br>
 	  @A.I Tom Volis li me?<br>
           @A.I Tom Volim te<br>
           @A.I Tom volim te<br>
