@@ -23,7 +23,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- Bootstrap-Main --> <script src="js/bootstrap.min.js"></script>
     <!-- Index-Page-Styling --> <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 <!-- //Custom-Theme-Files -->
-
+    <!-- Last.Fm -->
+  <script>
+$(document).ready(function() {
+$.getJSON("https://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=alicajdin&api_key=24f6b03517ad9984de417be5d10e150b&limit=2&format=json&callback=?", function(data) {
+        var html = ''; // we declare the variable that we'll be using to store our information
+        var counter = 1; // we declare a counter variable to use with the if statement in order to limit the result to 1
+        $.each(data.recenttracks.track, function(i, item) {
+            if(counter == 1) {
+                html += 'Trenutno Slusamo: <span><a href="' + item.url + '" target="_blank">' + item.name + '</a> - ' + item.artist['#text'] + '</span>';
+            } // close the if statement
+            counter++ // add 1 to the counter variable each time the each loop runs
+        }); // close each loop
+        $('.listening-to').append(html); // print the information to the document - here I look for the h5 tag inside the div with a class of 'listening-to' and use the jQuery append method to insert the information we've stored in the html variable inside the h5 tag.
+    }); // close JSON call
+});
+</script>
 <!-- Start-Smooth-Scrolling -->
 <script src="js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -122,8 +137,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                 <h2>   Stream music together for free!   </h2>
                 <span>Listen, play, discover and connect with music fans around the world!</span>
+		    <h4 style="color: #E6D8D8;"><span class="listening-to"></span></h4>
                 
-                <a style="margin: 400px 0 0 0 !important;" href="https://plug.dj/yugoslavia-balkan-music" target="_blank" class="button outline-inward">EXPLORE</a>  
+                <a style="margin: 400px 0 0 0 !important;" href="https://plug.dj/yugoslavia-balkan-music" target="_blank" class="button outline-inward">JOIN US</a>  
 
             </div>
 
@@ -184,20 +200,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 
             <div class="artists" id="artists">
-                <h3>Ostali Linkovi</h3>
+                <h3>Svi Linkovi</h3>
                 <div class="grid1">
                     <ul>
                         <li><a href="pages/version.html">Updates</a></li>
                         <li><a href="https://github.com/Bosanka/Pravila/wiki" target="_blank">Pravila</a></li>
                         <li><a href="https://itunes.apple.com/us/app/plug-dj/id1199921176?mt=8" target="_blank">plug.dj IOS</a></li>
                         <li><a href="https://play.google.com/store/apps/details?id=com.rowl.plugdj&hl=en" target="_blank">plug.dj Android</a></li>
-                        <li><a href="#">Rammstein</a></li>
+                        <li><a href="leaderboard.html">Leaderboard</a></li>
                     </ul>
                 </div>
                 <div class="grid2">
                     <ul>
-                        <li><a href="#">The Beatles</a></li>
-                        <li><a href="#">Bee Gees</a></li>
+                        <li><a href="blacklist.html">Blacklista</a></li>
+                        <li><a href="https://plug.dj/yugoslavia-balkan-music" target="_blank">plug.dj room</a></li>
                         <li><a href="#">Queen</a></li>
                         <li><a href="#">Deep Purple</a></li>
                         <li><a href="#">Coldplay</a></li>
