@@ -558,6 +558,15 @@ ul.icons li a.gplus:hover {
 .bg-lr {
 height:695px;
 background:url(https://cdn.plug.dj/_/static/images/index/join.afd319b5589141e2da05520fa177b731e28f125e.jpg);
+	margin-top: -120px;
+}
+.tp-bg {
+    background: url(https://cdn.plug.dj/_/static/images/index/peanutgallery.72b555aa5d2c06cb7e7d1c90892f913255b62618.png) no-repeat;
+    position: relative;
+    top: -92px;
+    left: 0;
+    width: 1150px;
+    height: 120px;
 }
 div#download {
     position: absolute;
