@@ -31,7 +31,7 @@ $.getJSON("https://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=a
         var counter = 1; // we declare a counter variable to use with the if statement in order to limit the result to 1
         $.each(data.recenttracks.track, function(i, item) {
             if(counter == 1) {
-                html += 'Trenutno Slusamo: <span><a href="' + item.url + '" target="_blank">' + item.name + '</a> - ' + item.artist['#text'] + '</span>';
+                html += 'Trenutno Slusamo: <span><a style="color:#fff;" href="' + item.url + '" target="_blank">' + item.name + '</a> - ' + item.artist['#text'] + '</span>';
             } // close the if statement
             counter++ // add 1 to the counter variable each time the each loop runs
         }); // close each loop
@@ -137,7 +137,7 @@ $.getJSON("https://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=a
 
                 <h2>   Stream music together for free!   </h2>
                 <span>Listen, play, discover and connect with music fans around the world!</span>
-		    <h4 style="color: #E6D8D8;"><span class="listening-to"></span></h4>
+		    <h4><span style="color:#ccc;" class="listening-to"></span></h4>
                 
                 <a style="margin: 400px 0 0 0 !important;" href="https://plug.dj/yugoslavia-balkan-music" target="_blank" class="button outline-inward">JOIN US</a>  
 
