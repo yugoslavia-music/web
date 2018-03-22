@@ -275,3 +275,20 @@
 .badge-box {
  border-radius: 0px !important;   
 }
+#room-settings .general-settings .option button.off {
+    background: #333 !important;
+}
+#playlist-menu {
+    background: #121212 !important;
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    border-right: 5px solid #1b1a52 ;
+}
+#playlist-activate-button {
+  background: #333 !important;  
+}
+#playlist-activate-button span {
+    color: #7f8696 !important;
+}
+#playlist-import {
+ background: #333 !important;   
+}
