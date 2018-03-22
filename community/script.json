@@ -2,7 +2,7 @@
     "room": "Yugoslavia",
     "author": "Ajdin",
     "icon": null,
-    "css": "https://rawgit.com/yugoslavia-music/yugoslavia-music.github.io/master/files/style.css",
+    "css": "https://rawgit.com/yugoslavia-music/yugoslavia-music.github.io/master/community/style.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
