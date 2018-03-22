@@ -1,0 +1,47 @@
+{
+    "room": "Yugoslavia",
+    "author": "Ajdin",
+    "icon": null,
+    "css": "",
+    "rules": {
+        "allowAutorespond": true,
+        "allowAutowoot": true,
+        "allowAutojoin": false,
+        "allowAutograb": false,
+        "allowSmartVote": true,
+        "allowEmotes": true,
+        "allowShowingMehs": false,
+        "forceSmartVote": false
+    },
+    "ccc": {
+        "admin": "",
+        "ambassador": "",
+        "host": "",
+        "cohost": "",
+        "manager": "",
+        "bouncer": "",
+        "rdj": "",
+        "subscriber": "",
+        "silversubscriber": "",
+        "friend": "",
+        "user": ""
+    },
+    "images": {
+        "background": "",
+        "playback": "https://cdn.radiant.dj/rcs/frames/default.png",
+        "admin": "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
+        "ambassador": "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
+        "host": "https://i.imgur.com/ajqkl0z.png",
+        "cohost": "https://i.imgur.com/kWBDXvv.png",
+        "manager": "https://i.imgur.com/nPXiyt5.png",
+        "bouncer": "http://i.imgur.com/Y1kIiS9.png",
+        "rdj": "https://i.imgur.com/3iLQqBl.png",
+        "subscriber": null,
+        "silversubscriber": "https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
+    },
+    "autocomplete": {
+    },
+    "emotes": {
+        "custom_test": "https://cdn.radiant.dj/rcs/icons/test_custom.png"
+    }
+}
