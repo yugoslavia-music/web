@@ -1,0 +1,9 @@
+/* BOT /
+#chat [data-cid^="3625731-"].emote {
+background-color: rgb(35, 32, 35) !important;
+font-style: normal !important;
+}
+[data-cid^="3625731-"] span.un.clickable{
+color: #FFFFFF  !important;
+pointer-events: none !important;
+}
