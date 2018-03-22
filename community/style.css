@@ -16,6 +16,27 @@
      background: #1b1a52 !important;
 }
 /* animations */
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both; */
 @keyframes slide-bck-center {
   0% {
@@ -223,14 +244,16 @@
      background: linear-gradient(135deg,#333 0,#0a0a0a 13%,#0a0a0a 100%) !important;
 }
  #chat .msg {
-     -webkit-transition-duration: 0.3s;
+    /* -webkit-transition-duration: 0.3s;
      transition-duration: 0.3s;
      -webkit-transition-property: transform;
-     transition-property: transform 
+     transition-property: transform */
 }
  #chat .msg:hover {
-     -webkit-transform: scale(1.1) rotate(4deg);
-     transform: scale(1.1) rotate(4deg);
+    /* -webkit-transform: scale(1.1) rotate(4deg);
+     transform: scale(1.1) rotate(4deg); */
+     -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
  #rcs-progress-container .bar {
      background: #333 !important;
