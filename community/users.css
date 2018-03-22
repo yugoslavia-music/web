@@ -1,4 +1,4 @@
-/* BOT /
+/* BOT */
 #chat [data-cid^="3625731-"].emote {
 background-color: rgb(35, 32, 35) !important;
 font-style: normal !important;
@@ -6,4 +6,17 @@ font-style: normal !important;
 [data-cid^="3625731-"] span.un.clickable{
 color: #FFFFFF  !important;
 pointer-events: none !important;
+}
+#user-lists .list .user.id-3625731 .name:after,
+.fromID-3625731 .from .un.clickable:after,
+.cid-3625731 .from .un.clickable:after,
+.id-3625731 .from .un.clickable:after,
+#user-lists .list .user.id-3625731 .name:after,
+.fromID-3625731 .from .un.clickable:after,
+.cid-3625731 .from .un.clickable:after,
+.id-3625731 .from .un.clickable:after {
+    content: url("https://dl.dropboxusercontent.com/s/6n8jncgoufypt60/Bot.png");
+    top: 3px;
+    Left: 3px;
+    position: relative;
 }
