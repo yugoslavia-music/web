@@ -1,0 +1,268 @@
+@import url('https://rawgit.com/yugoslavia-music/yugoslavia-music.github.io/master/files/users.css');
+
+/* 
+    YUGOSLAVIA BALKAN MUSIC Please do not copy or modify without permission. 
+     WEbsite: https://yugoslavia-music.github.io/ 
+*/
+
+/* app */
+ .room-background {
+     background: url(https://www.desktop-background.com/download/o/2014/03/26/737529_custom-backgrounds-rcs-an-extension-for-plug-dj_1600x900_h.png) no-repeat !important;
+     width: 500% !important;
+     height: 500% !important;
+     filter: brightness(30%);
+}
+ ::-webkit-scrollbar-thumb {
+     background: #1b1a52 !important;
+}
+/* animations */
+/* animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both; */
+@keyframes slide-bck-center {
+  0% {
+    transform: translateZ(0);
+  }
+  100% {
+    transform: translateZ(-400px);
+  }
+}
+/* animation: heartbeat 1.5s ease-in-out infinite both;
+ */
+ @keyframes heartbeat {
+     from {
+         transform: scale(1);
+         transform-origin: center center;
+         animation-timing-function: ease-out;
+    }
+     10% {
+         transform: scale(0.91);
+         animation-timing-function: ease-in;
+    }
+     17% {
+         transform: scale(0.98);
+         animation-timing-function: ease-out;
+    }
+     33% {
+         transform: scale(0.87);
+         animation-timing-function: ease-in;
+    }
+     45% {
+         transform: scale(1);
+         animation-timing-function: ease-out;
+    }
+}
+ @keyframes flip-scale-up-hor {
+     0% {
+         transform: scale(1) rotateX(0);
+    }
+     50% {
+         transform: scale(2.5) rotateX(-90deg);
+    }
+     100% {
+         transform: scale(1) rotateX(-180deg);
+    }
+}
+ @keyframes scale-up-center {
+     0% {
+         transform: scale(0.5);
+    }
+     100% {
+         transform: scale(1);
+    }
+}
+ @keyframes flip-horizontal-bottom {
+     0% {
+         transform: rotateX(0);
+    }
+     100% {
+         transform: rotateX(-180deg);
+    }
+}
+/* animation: flip-in-hor-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ */
+ @keyframes flip-in-hor-top {
+     0% {
+         transform: rotateX(-80deg);
+         opacity: 0;
+    }
+     100% {
+         transform: rotateX(0);
+         opacity: 1;
+    }
+}
+/*animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+*/
+ @keyframes slide-in-left {
+     0% {
+         transform: translateX(-1000px);
+         opacity: 0;
+    }
+     100% {
+         transform: translateX(0);
+         opacity: 1;
+    }
+}
+/*animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+*/
+ @keyframes slide-in-top {
+     0% {
+         transform: translateY(-1000px);
+         opacity: 0;
+    }
+     100% {
+         transform: translateY(0);
+         opacity: 1;
+    }
+}
+ @keyframes bounce {
+     0%, 20%, 60%, 100% {
+         -webkit-transform: translateY(0);
+         transform: translateY(0);
+    }
+     40% {
+         -webkit-transform: translateY(-20px);
+         transform: translateY(-20px);
+    }
+     80% {
+         -webkit-transform: translateY(-10px);
+         transform: translateY(-10px);
+    }
+}
+/* interface */
+ .app-header {
+     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+     background: #121212 !important;
+}
+ #app-menu {
+     background: #121212;
+}
+ #rs-skip-button {
+     background: #121212 !important;
+}
+ #history-button {
+     background: #121212 !important;
+}
+ #room-name {
+     animation: bounce 1s;
+     color: #828284 !important;
+     top: 12px !important;
+}
+ #room-host {
+     color: #616163;
+     display: none;
+}
+ #room-bar .icon-room {
+     top: 9px;
+     left: 7px;
+     background: url(https://i.imgur.com/oAw0Et4.png);
+}
+ #dj-button {
+     background: #121212 !important;
+}
+ #dj-button:hover {
+     animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+ #dj-button.is-leave .left, #dj-button.is-quit .left {
+     background: #121212;
+}
+ #vote .crowd-response {
+     background: #121212 !important;
+}
+ #woot {
+     border-radius: 0px 0 0 0px !important;
+}
+ .votes-rs {
+     background: #212121 !important;
+}
+ .votes-rs .title.woot {
+     background: #333 !important;
+}
+ .votes-rs .title.grab {
+     background: #333 !important;
+}
+ .votes-rs .title.meh {
+     background: #333;
+}
+ #woot .bottom, #woot.selected {
+     background: #121212 !important;
+}
+ #meh .bottom, #meh.selected {
+     background: #121212;
+}
+ #meh .bottom, #meh.selected {
+     background: #121212;
+}
+ #footer {
+     background: #121212;
+     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ #woot.crowd-response.disabled.active .bottom {
+     background: #212121;
+}
+ #grab.crowd-response.disabled.active .bottom {
+     background: #212121;
+}
+ #meh.crowd-response.disabled.active .bottom {
+     background: #212121;
+}
+ #playlist-button {
+     background: #121212 !important;
+}
+ .social-menu .subscribe {
+     background: #121212;
+}
+ #vote .crowd-response.disabled .bottom {
+     background: #121212;
+}
+ #vote .crowd-response.disabled .bottom {
+     background: #121212;
+}
+ .votes-rs .title.meh {
+     background: #333;
+}
+ #chat .mention.is-you {
+     background: linear-gradient(135deg,#333 0,#0a0a0a 13%,#0a0a0a 100%) !important;
+}
+ #chat .msg {
+     -webkit-transition-duration: 0.3s;
+     transition-duration: 0.3s;
+     -webkit-transition-property: transform;
+     transition-property: transform 
+}
+ #chat .msg:hover {
+     -webkit-transform: scale(1.1) rotate(4deg);
+     transform: scale(1.1) rotate(4deg);
+}
+ #rcs-progress-container .bar {
+     background: #333 !important;
+}
+ #grab .bottom, #grab.selected {
+     background: #121212 !important;
+}
+ #playback:hover {
+     animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+ #woot:hover {
+     animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+ #grab:hover {
+     animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+ #meh:hover {
+     animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+ #chat-messages .text {
+     color: #ccc;
+}
+ #chat-input {
+     background: #121212;
+}
+ #chat-input:hover {
+     box-shadow: inset 0 0 0 3px #333;
+}
+ #chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome {
+     width: initial!important;
+     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+#user-lists .list .user:hover {
+    background: linear-gradient(to right,rgba(31, 26, 26, 0) 0,rgba(80, 50, 73, 0.27) 100%) !important;
+}
