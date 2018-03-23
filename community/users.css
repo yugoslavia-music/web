@@ -1,3 +1,20 @@
+/*
+Super DJ - 2000 Points - https://i.imgur.com/gs8dhet.png
+Ultra DJ - 5000 Points - https://i.imgur.com/o5zWX3X.png
+Mega DJ - 10000 Points - https://i.imgur.com/QW7Uqsm.png
+
+Achievements
+https://i.imgur.com/AOgj9Mv.png
+https://i.imgur.com/O68jc3R.png
+https://i.imgur.com/qBNTTU7.png
+https://i.imgur.com/KNtNumn.png
+
+Example
+#chat [data-cid^="3625731-"] i.bdg, #user-rollover.id-3625731 i.bdg, #chat .id-3625731 i.bdg {
+    background: url('http://chilloutmusic.fm/img/theme/Icons/3292657.gif') !important;
+    background-size: cover;
+} */
+
 /* BOT */
 #chat [data-cid^="3625731-"].emote {
 background-color: rgb(35, 32, 35) !important;
@@ -18,5 +35,39 @@ pointer-events: none !important;
     content: url("https://dl.dropboxusercontent.com/s/6n8jncgoufypt60/Bot.png");
     top: 3px;
     Left: 3px;
+    position: relative;
+}
+
+/* Bato */
+#chat [data-cid^="3749559-"] i.bdg, #user-rollover.id-3749559 i.bdg, #chat .id-3749559 i.bdg {
+    background: url('https://i.imgur.com/o5zWX3X.png') !important;
+    background-size: cover;
+}
+#user-lists .list .user.id-3749559 .name:before,
+.fromID-3625731 .from .un.clickable:before,
+.cid-3749559 .from .un.clickable:before,
+.id-3749559 .from .un.clickable:before,
+#user-lists .list .user.id-3749559 .name:before,
+.fromID-3749559 .from .un.clickable:before,
+.cid-3749559 .from .un.clickable:before,
+.id-3749559 .from .un.clickable:before {
+    content: url("https://i.imgur.com/K9Y9V4e.png");
+    top: 3px;
+    right: 3px;
+    position: relative;
+}
+
+/* Ajdin */
+#user-lists .list .user.id-4308733 .name:before,
+.fromID-4308733 .from .un.clickable:before,
+.cid-4308733 .from .un.clickable:before,
+.id-43087339 .from .un.clickable:before,
+#user-lists .list .user.id-4308733 .name:before,
+.fromID-4308733 .from .un.clickable:before,
+.cid-4308733 .from .un.clickable:before,
+.id-4308733 .from .un.clickable:before {
+    content: url("https://i.imgur.com/KNtNumn.png");
+    top: 3px;
+    right: 3px;
     position: relative;
 }
