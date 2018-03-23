@@ -19,6 +19,31 @@
 
 /**
  * ----------------------------------------
+ * animation slide-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+/**
+ * ----------------------------------------
  * animation text-pop-up-top
  * ----------------------------------------
  */
@@ -359,8 +384,11 @@
  #chat .msg:hover {
     /* -webkit-transform: scale(1.1) rotate(4deg);
      transform: scale(1.1) rotate(4deg); */
-     -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+     /*-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;*/
+	 -webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+background:#121212;
 }
  #rcs-progress-container .bar {
      background: #333 !important;
@@ -430,4 +458,14 @@
 #rs-skip-button:hover,
 .bar-value:hover {
 filter: brightness(30%);
+}
+#room-settings-menu {
+	background: #121212 !important;
+	box-shadow: inset -15px -5px 7px 0px #2e2d698a;
+}
+#room-settings .general-settings {
+	background: #121212 !important;
+}
+#user-rollover {
+background: #221f22;	
 }
