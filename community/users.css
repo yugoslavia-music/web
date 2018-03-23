@@ -9,9 +9,9 @@ https://i.imgur.com/AOgj9Mv.png
 https://i.imgur.com/O68jc3R.png
 https://i.imgur.com/qBNTTU7.png
 https://i.imgur.com/KNtNumn.png
-https://i.imgur.com/4yzcyVP.png
-https://i.imgur.com/K4q5pLd.png
-https://i.imgur.com/5DQyWjm.png
+https://i.imgur.com/4yzcyVP.png - Normal
+https://i.imgur.com/K4q5pLd.png - Rookie
+https://i.imgur.com/iFvjY3a.png - Expert
 
 Example
 #chat [data-cid^="3625731-"] i.bdg, #user-rollover.id-3625731 i.bdg, #chat .id-3625731 i.bdg {
@@ -42,12 +42,12 @@ pointer-events: none !important;
     position: relative;
 }
 
-/* Bato - badge + icon */
-#chat [data-cid^="3749559-"] i.bdg, #user-rollover.id-3749559 i.bdg, #chat .id-3749559 i.bdg {
+/* Bato - icon */
+/*#chat [data-cid^="3749559-"] i.bdg, #user-rollover.id-3749559 i.bdg, #chat .id-3749559 i.bdg {
     background: url('https://i.imgur.com/UAuhAFp.png') !important;
-    background-size: cover;
+    background-size: cover;*/
 }
-#user-lists .list .user.id-3749559 .name:before,
+ #user-lists .list .user.id-3749559 .name:before,
 .fromID-3625731 .from .un.clickable:before,
 .cid-3749559 .from .un.clickable:before,
 .id-3749559 .from .un.clickable:before,
@@ -59,6 +59,18 @@ pointer-events: none !important;
     top: 3px;
     right: 3px;
     position: relative;
+}
+
+
+#user-rollover.id-3749559 .level:after {
+    background-image: url(https://i.imgur.com/4yzcyVP.png);
+    background-repeat: no-repeat;
+    content: "Newbie";
+    display: inline-block;
+    color: #00BB95!important;
+    font-weight: bold;
+    margin: 0px 0px 0 14px!important;
+    padding-left: 19px
 }
 
 /* Ajdin - icon */
@@ -74,4 +86,29 @@ pointer-events: none !important;
     top: 3px;
     right: 3px;
     position: relative;
+}
+
+/* Linking Park */
+ #user-lists .list .user.id-31393335 .name:before,
+.fromID-31393335 .from .un.clickable:before,
+.cid-31393335 .from .un.clickable:before,
+.id-31393335 .from .un.clickable:before,
+#user-lists .list .user.id-3749559 .name:before,
+.fromID-31393335 .from .un.clickable:before,
+.cid-31393335 .from .un.clickable:before,
+.id-31393335 .from .un.clickable:before {
+    content: url("https://i.imgur.com/4yzcyVP.png");
+    top: 3px;
+    right: 3px;
+    position: relative;
+}
+#user-rollover.id-31393335 .level:after {
+    background-image: url(https://i.imgur.com/4yzcyVP.png);
+    background-repeat: no-repeat;
+    content: "Newbie";
+    display: inline-block;
+    color: #00BB95!important;
+    font-weight: bold;
+    margin: 0px 0px 0 14px!important;
+    padding-left: 19px
 }
