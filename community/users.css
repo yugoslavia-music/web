@@ -1,13 +1,17 @@
 /*
-Super DJ - 2000 Points - https://i.imgur.com/gs8dhet.png
-Ultra DJ - 5000 Points - https://i.imgur.com/o5zWX3X.png
-Mega DJ - 10000 Points - https://i.imgur.com/QW7Uqsm.png
+https://imgur.com/a/TZZvN - Badges
+Super DJ - 3000 Points - https://i.imgur.com/UroN3sa.png
+Ultra DJ - 5000 Points - https://i.imgur.com/UAuhAFp.png
+Mega DJ - 10000 Points - https://i.imgur.com/4uK5oGv.png
 
 Achievements
 https://i.imgur.com/AOgj9Mv.png
 https://i.imgur.com/O68jc3R.png
 https://i.imgur.com/qBNTTU7.png
 https://i.imgur.com/KNtNumn.png
+https://i.imgur.com/4yzcyVP.png
+https://i.imgur.com/K4q5pLd.png
+https://i.imgur.com/5DQyWjm.png
 
 Example
 #chat [data-cid^="3625731-"] i.bdg, #user-rollover.id-3625731 i.bdg, #chat .id-3625731 i.bdg {
@@ -51,7 +55,7 @@ pointer-events: none !important;
 .fromID-3749559 .from .un.clickable:before,
 .cid-3749559 .from .un.clickable:before,
 .id-3749559 .from .un.clickable:before {
-    content: url("https://i.imgur.com/K9Y9V4e.png");
+    content: url("https://i.imgur.com/4yzcyVP.png");
     top: 3px;
     right: 3px;
     position: relative;
@@ -66,7 +70,7 @@ pointer-events: none !important;
 .fromID-4308733 .from .un.clickable:before,
 .cid-4308733 .from .un.clickable:before,
 .id-4308733 .from .un.clickable:before {
-    content: url("https://i.imgur.com/KNtNumn.png");
+    content: url("https://i.imgur.com/K4q5pLd.png");
     top: 3px;
     right: 3px;
     position: relative;
