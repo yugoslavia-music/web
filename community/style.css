@@ -473,3 +473,12 @@ background: #221f22;
 .media-list .row {
 height:40px !important;
 }
+#user-view .user-content {
+background: #121212;
+}
+#user-menu .avatar {
+background: #333 !important;
+}
+#user-menu .item .count {
+background: #333 !important;
+}
