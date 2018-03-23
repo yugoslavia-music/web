@@ -467,3 +467,6 @@ filter: brightness(30%);
 #user-rollover {
 background: #221f22;	
 }
+#chat .mention.is-dj:nth-child(2n+1), #chat .mention.is-staff:nth-child(2n+1) {
+	    background: linear-gradient(135deg,#333,#0a0a0a 13%,#0a0a0a 100%) !important;
+}
