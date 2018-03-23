@@ -42,9 +42,9 @@ pointer-events: none !important;
     position: relative;
 }
 
-/* Bato */
+/* Bato - badge + icon */
 #chat [data-cid^="3749559-"] i.bdg, #user-rollover.id-3749559 i.bdg, #chat .id-3749559 i.bdg {
-    background: url('https://i.imgur.com/o5zWX3X.png') !important;
+    background: url('https://i.imgur.com/UAuhAFp.png') !important;
     background-size: cover;
 }
 #user-lists .list .user.id-3749559 .name:before,
@@ -61,7 +61,7 @@ pointer-events: none !important;
     position: relative;
 }
 
-/* Ajdin */
+/* Ajdin - icon */
 #user-lists .list .user.id-4308733 .name:before,
 .fromID-4308733 .from .un.clickable:before,
 .cid-4308733 .from .un.clickable:before,
