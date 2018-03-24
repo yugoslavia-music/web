@@ -470,9 +470,6 @@ background: #221f22;
 #chat .mention.is-dj:nth-child(2n+1), #chat .mention.is-staff:nth-child(2n+1) {
 	    background: linear-gradient(135deg,#333,#0a0a0a 13%,#0a0a0a 100%) !important;
 }
-.media-list .row {
-height:40px !important;
-}
 #user-view .user-content {
 background: #121212;
 }
