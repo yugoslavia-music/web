@@ -479,3 +479,6 @@ background: #333 !important;
 #user-menu .item .count {
 background: #333 !important;
 }
+.row:hover {
+    background: linear-gradient(to right,rgba(60, 52, 52, 0) 0,rgba(172, 173, 183, 0.27) 100%) !important;
+}
