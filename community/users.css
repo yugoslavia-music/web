@@ -76,20 +76,33 @@ pointer-events: none !important;
     font-size:15px;
 }
 
-/* Ajdin 
-#user-lists .list .user.id-4308733 .name:before,
-.fromID-4308733 .from .un.clickable:before,
+/* Ajdin */
+ #user-lists .list .user.id-4308733 .name:before,
+.fromID-3625731 .from .un.clickable:before,
 .cid-4308733 .from .un.clickable:before,
-.id-43087339 .from .un.clickable:before,
+.id-4308733 .from .un.clickable:before,
 #user-lists .list .user.id-4308733 .name:before,
 .fromID-4308733 .from .un.clickable:before,
 .cid-4308733 .from .un.clickable:before,
 .id-4308733 .from .un.clickable:before {
-    content: url("https://i.imgur.com/K4q5pLd.png");
-    top: 3px;
+    font-family: Ionicons;
+    content: "\f3e6";
+    top: 0px;
     right: 3px;
     position: relative;
-} */
+font-size:15px;
+}
+#user-rollover.id-3625731 .level:after {
+    font-family: Ionicons;
+    background-repeat: no-repeat;
+    content: "SuperU \f3e6";
+    display: inline-block;
+    color: #00BB95!important;
+    font-weight: bold;
+    margin: 0px 0px 0 14px!important;
+    padding-left: 19px;
+    font-size:15px;
+}
 
 /* Linking Park */
  #user-lists .list .user.id-31393335 .name:before,
