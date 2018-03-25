@@ -11,7 +11,7 @@
         "allowSmartVote": true,
         "allowEmotes": true,
         "allowShowingMehs": true,
-        "forceSmartVote": true
+        "forceSmartVote": false
     },
     "ccc": {
         "admin": null,
