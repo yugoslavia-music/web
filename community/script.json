@@ -6,12 +6,12 @@
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
-        "allowAutojoin": false,
+        "allowAutojoin": true,
         "allowAutograb": false,
         "allowSmartVote": true,
         "allowEmotes": true,
-        "allowShowingMehs": false,
-        "forceSmartVote": false
+        "allowShowingMehs": true,
+        "forceSmartVote": true
     },
     "ccc": {
         "admin": null,
