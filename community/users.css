@@ -57,7 +57,7 @@ pointer-events: none !important;
 .id-3749559 .from .un.clickable:before {
     font-family: Ionicons;
     content: "\f4b3";
-    top: 3px;
+    top: 0px;
     right: 3px;
     position: relative;
     font-size:15px;
@@ -72,7 +72,8 @@ pointer-events: none !important;
     color: #00BB95!important;
     font-weight: bold;
     margin: 0px 0px 0 14px!important;
-    padding-left: 19px
+    padding-left: 19px;
+    font-size:15px;
 }
 
 /* Ajdin 
@@ -101,7 +102,7 @@ pointer-events: none !important;
 .id-31393335 .from .un.clickable:before {
    font-family: Ionicons;
     content: "\f4b3";
-    top: 3px;
+    top: 0px;
     right: 3px;
     position: relative;
     font-size:15px;
@@ -114,7 +115,8 @@ pointer-events: none !important;
     color: #00BB95!important;
     font-weight: bold;
     margin: 0px 0px 0 14px!important;
-    padding-left: 19px
+    padding-left: 19px;
+    font-size:15px;
 }
 
 /* Bosanka */
@@ -128,7 +130,7 @@ pointer-events: none !important;
 .id-3218570 .from .un.clickable:before {
     font-family: Ionicons;
     content: "\f4b3";
-    top: 3px;
+    top: 0px;
     right: 3px;
     position: relative;
     font-size:15px;
@@ -141,5 +143,6 @@ pointer-events: none !important;
     color: #00BB95!important;
     font-weight: bold;
     margin: 0px 0px 0 14px!important;
-    padding-left: 19px
+    padding-left: 19px;
+    font-size:15px;
 }
