@@ -110,3 +110,27 @@ pointer-events: none !important;
     margin: 0px 0px 0 14px!important;
     padding-left: 19px
 }
+/* Bosanka */
+ #user-lists .list .user.id-3218570 .name:before,
+.fromID-3218570 .from .un.clickable:before,
+.cid-3218570 .from .un.clickable:before,
+.id-3218570 .from .un.clickable:before,
+#user-lists .list .user.id-3749559 .name:before,
+.fromID-3218570 .from .un.clickable:before,
+.cid-3218570 .from .un.clickable:before,
+.id-3218570 .from .un.clickable:before {
+    content: url("https://i.imgur.com/4yzcyVP.png");
+    top: 3px;
+    right: 3px;
+    position: relative;
+}
+#user-rollover.id-3218570 .level:after {
+    background-image: url(https://i.imgur.com/4yzcyVP.png);
+    background-repeat: no-repeat;
+    content: "Newbie";
+    display: inline-block;
+    color: #00BB95!important;
+    font-weight: bold;
+    margin: 0px 0px 0 14px!important;
+    padding-left: 19px
+}
