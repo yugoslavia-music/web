@@ -64,7 +64,7 @@ pointer-events: none !important;
 }
 
 
-#user-rollover.id-3749559 .level:after {
+#user-rollover.id-3749559 .showID:after {
     font-family: Ionicons;
     background-repeat: no-repeat;
     content: "Newbie \f4b3";
@@ -92,7 +92,7 @@ pointer-events: none !important;
     position: relative;
 font-size:15px;
 }
-#user-rollover.id-3625731 .level:after {
+#user-rollover.id-3625731 .showID:after {
     font-family: Ionicons;
     background-repeat: no-repeat;
     content: "SuperU \f3e6";
@@ -120,7 +120,7 @@ font-size:15px;
     position: relative;
     font-size:15px;
 }
-#user-rollover.id-31393335 .level:after {
+#user-rollover.id-31393335 .showID:after {
     font-family: Ionicons;
     background-repeat: no-repeat;
     content: "Newbie \f4b3";
@@ -148,7 +148,7 @@ font-size:15px;
     position: relative;
     font-size:15px;
 }
-#user-rollover.id-3218570 .level:after {
+#user-rollover.id-3218570 .showID:after {
     font-family: Ionicons;
     background-repeat: no-repeat;
     content: "Newbie \f4b3";
