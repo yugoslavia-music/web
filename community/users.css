@@ -1,3 +1,5 @@
+@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+
 /*
 Badges
 https://i.imgur.com/PSvPEPM.gif
@@ -53,17 +55,19 @@ pointer-events: none !important;
 .fromID-3749559 .from .un.clickable:before,
 .cid-3749559 .from .un.clickable:before,
 .id-3749559 .from .un.clickable:before {
-    content: url("https://i.imgur.com/4yzcyVP.png");
+    font-family: Ionicons;
+    content: "\f4b3";
     top: 3px;
     right: 3px;
     position: relative;
+    font-size:15px;
 }
 
 
 #user-rollover.id-3749559 .level:after {
-    background-image: url(https://i.imgur.com/4yzcyVP.png);
+    font-family: Ionicons;
     background-repeat: no-repeat;
-    content: "Newbie";
+    content: "Newbie \f4b3";
     display: inline-block;
     color: #00BB95!important;
     font-weight: bold;
@@ -95,15 +99,17 @@ pointer-events: none !important;
 .fromID-31393335 .from .un.clickable:before,
 .cid-31393335 .from .un.clickable:before,
 .id-31393335 .from .un.clickable:before {
-    content: url("https://i.imgur.com/4yzcyVP.png");
+   font-family: Ionicons;
+    content: "\f4b3";
     top: 3px;
     right: 3px;
     position: relative;
+    font-size:15px;
 }
 #user-rollover.id-31393335 .level:after {
-    background-image: url(https://i.imgur.com/4yzcyVP.png);
+    font-family: Ionicons;
     background-repeat: no-repeat;
-    content: "Newbie";
+    content: "Newbie \f4b3";
     display: inline-block;
     color: #00BB95!important;
     font-weight: bold;
@@ -120,15 +126,17 @@ pointer-events: none !important;
 .fromID-3218570 .from .un.clickable:before,
 .cid-3218570 .from .un.clickable:before,
 .id-3218570 .from .un.clickable:before {
-    content: url("https://i.imgur.com/4yzcyVP.png");
+    font-family: Ionicons;
+    content: "\f4b3";
     top: 3px;
     right: 3px;
     position: relative;
+    font-size:15px;
 }
 #user-rollover.id-3218570 .level:after {
-    background-image: url(https://i.imgur.com/4yzcyVP.png);
+    font-family: Ionicons;
     background-repeat: no-repeat;
-    content: "Newbie";
+    content: "Newbie \f4b3";
     display: inline-block;
     color: #00BB95!important;
     font-weight: bold;
