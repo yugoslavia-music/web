@@ -62,8 +62,6 @@ pointer-events: none !important;
     position: relative;
     font-size:15px;
 }
-
-
 #user-rollover.id-3749559 .showID:after {
     font-family: Ionicons;
     background-repeat: no-repeat;
@@ -109,7 +107,7 @@ font-size:15px;
 .fromID-31393335 .from .un.clickable:before,
 .cid-31393335 .from .un.clickable:before,
 .id-31393335 .from .un.clickable:before,
-#user-lists .list .user.id-3749559 .name:before,
+#user-lists .list .user.id-31393335 .name:before,
 .fromID-31393335 .from .un.clickable:before,
 .cid-31393335 .from .un.clickable:before,
 .id-31393335 .from .un.clickable:before {
@@ -137,7 +135,7 @@ font-size:15px;
 .fromID-3218570 .from .un.clickable:before,
 .cid-3218570 .from .un.clickable:before,
 .id-3218570 .from .un.clickable:before,
-#user-lists .list .user.id-3749559 .name:before,
+#user-lists .list .user.id-3218570 .name:before,
 .fromID-3218570 .from .un.clickable:before,
 .cid-3218570 .from .un.clickable:before,
 .id-3218570 .from .un.clickable:before {
