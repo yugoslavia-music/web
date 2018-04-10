@@ -158,3 +158,8 @@ font-size:15px;
     padding-left: 19px;
     font-size:15px;
 }
+/* Nummer01 */
+#chat [data-cid^="4701150-"] i.bdg, #user-rollover.id-4701150 i.bdg, #chat .id-4701150 i.bdg {
+    background: url('https://i.imgur.com/bXyJmaB.png') !important;
+    background-size: cover;
+}
