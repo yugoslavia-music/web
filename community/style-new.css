@@ -106,16 +106,6 @@
  #chat .from.subscriber .un {
      color: #777f92 !important;
 }
-/* Replacing subscriber crown icon */
- #chat .icon-chat-subscriber {
-     background: url('https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png') !important;
-     -webkit-filter: grayscale(100%) !important;
-     background-position: 0px;
-}
-/* Replacing subscriber crown icon, I'm using the RCS icon for that D: */
- #waitlist .list .user .meta.is-subscriber .name i, #user-lists .list.room .user.is-subscriber .icon-chat-subscriber, #user-rollover .meta.subscriber .status i {
-     background: url('https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png') !important;
-     -webkit-filter: grayscale(100%) !important;
 }
 /* Changing subscriber's names on the waitlist to white */
  #waitlist .list .is-subscriber .name, #user-lists .list .is-subscriber .name {
