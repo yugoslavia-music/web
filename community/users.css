@@ -46,7 +46,7 @@ pointer-events: none !important;
 /*#chat [data-cid^="3749559-"] i.bdg, #user-rollover.id-3749559 i.bdg, #chat .id-3749559 i.bdg {
     background: url('https://i.imgur.com/UAuhAFp.png') !important;
     background-size: cover;
-}*/
+}
  #user-lists .list .user.id-3749559 .name:before,
 .fromID-3625731 .from .un.clickable:before,
 .cid-3749559 .from .un.clickable:before,
@@ -72,7 +72,7 @@ pointer-events: none !important;
     margin: 0px 0px 0 14px!important;
     padding-left: 19px;
     font-size:15px;
-}
+}*/
 
 /* Ajdin */
  #user-lists .list .user.id-4308733 .name:before,
@@ -88,7 +88,8 @@ pointer-events: none !important;
     top: 0px;
     right: 3px;
     position: relative;
-font-size:15px;
+    font-size:15px;
+    color: #ac76ff;
 }
 #user-rollover.id-3625731 .showID:after {
     font-family: Ionicons;
@@ -117,6 +118,7 @@ font-size:15px;
     right: 3px;
     position: relative;
     font-size:15px;
+    color: #ac76ff;
 }
 #user-rollover.id-31393335 .showID:after {
     font-family: Ionicons;
@@ -162,4 +164,91 @@ font-size:15px;
 #chat [data-cid^="4701150-"] i.bdg, #user-rollover.id-4701150 i.bdg, #chat .id-4701150 i.bdg {
     background: url('https://i.imgur.com/bXyJmaB.png') !important;
     background-size: cover;
+}
+
+/* Little Donut */
+ #user-lists .list .user.id-28843959 .name:before,
+.fromID-28843959 .from .un.clickable:before,
+.cid-28843959 .from .un.clickable:before,
+.id-28843959 .from .un.clickable:before,
+#user-lists .list .user.id-28843959 .name:before,
+.fromID-28843959 .from .un.clickable:before,
+.cid-28843959 .from .un.clickable:before,
+.id-28843959 .from .un.clickable:before {
+   font-family: Ionicons;
+    content: "\f4b3";
+    top: 0px;
+    right: 3px;
+    position: relative;
+    font-size:15px;
+    color: #ac76ff;
+}
+#user-rollover.id-28843959 .showID:after {
+    font-family: Ionicons;
+    background-repeat: no-repeat;
+    content: "Newbie \f4b3";
+    display: inline-block;
+    color: #00BB95!important;
+    font-weight: bold;
+    margin: 0px 0px 0 14px!important;
+    padding-left: 19px;
+    font-size:15px;
+}
+
+/* Ana */
+ #user-lists .list .user.id-4503763 .name:before,
+.fromID-4503763 .from .un.clickable:before,
+.cid-4503763 .from .un.clickable:before,
+.id-4503763 .from .un.clickable:before,
+#user-lists .list .user.id-4503763 .name:before,
+.fromID-4503763 .from .un.clickable:before,
+.cid-4503763 .from .un.clickable:before,
+.id-4503763 .from .un.clickable:before {
+   font-family: Ionicons;
+    content: "\f4b3";
+    top: 0px;
+    right: 3px;
+    position: relative;
+    font-size:15px;
+    color: #ac76ff;
+}
+#user-rollover.id-4503763 .showID:after {
+    font-family: Ionicons;
+    background-repeat: no-repeat;
+    content: "Newbie \f4b3";
+    display: inline-block;
+    color: #00BB95!important;
+    font-weight: bold;
+    margin: 0px 0px 0 14px!important;
+    padding-left: 19px;
+    font-size:15px;
+}
+
+/* Techno Panda */
+ #user-lists .list .user.id-5215987 .name:before,
+.fromID-5215987 .from .un.clickable:before,
+.cid-5215987 .from .un.clickable:before,
+.id-5215987 .from .un.clickable:before,
+#user-lists .list .user.id-5215987 .name:before,
+.fromID-5215987 .from .un.clickable:before,
+.cid-5215987 .from .un.clickable:before,
+.id-5215987 .from .un.clickable:before {
+   font-family: Ionicons;
+    content: "\f4b3";
+    top: 0px;
+    right: 3px;
+    position: relative;
+    font-size:15px;
+    color: #ac76ff;
+}
+#user-rollover.id-5215987 .showID:after {
+    font-family: Ionicons;
+    background-repeat: no-repeat;
+    content: "Newbie \f4b3";
+    display: inline-block;
+    color: #00BB95!important;
+    font-weight: bold;
+    margin: 0px 0px 0 14px!important;
+    padding-left: 19px;
+    font-size:15px;
 }
