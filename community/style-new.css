@@ -27,12 +27,9 @@
     }
 }
 /* ############################### INTERFACE APP ######################## */
-/* Add BG and make it a little darker */
- .room-background {
-     background: url(https://cdn.radiant.dj/rcs/bg/2k15nyc.jpg) no-repeat !important;
-     width: 500% !important;
-     height: 500% !important;
-     filter: brightness(30%);
+/* Add background */
+[data-theme] .left-side-wrapper {
+background-image: url(https://cdn.radiant.dj/rcs/bg/2k15nyc.jpg) !important;
 }
  #room-bar .icon-room {
      top: 9px;
