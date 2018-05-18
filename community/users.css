@@ -252,3 +252,31 @@ pointer-events: none !important;
     padding-left: 19px;
     font-size:15px;
 }
+/* Space Man */
+ #user-lists .list .user.id-4159727 .name:before,
+.fromID-4159727 .from .un.clickable:before,
+.cid-4159727 .from .un.clickable:before,
+.id-4159727 .from .un.clickable:before,
+#user-lists .list .user.id-4159727 .name:before,
+.fromID-4159727 .from .un.clickable:before,
+.cid-4159727 .from .un.clickable:before,
+.id-4159727 .from .un.clickable:before {
+   font-family: Ionicons;
+    content: "\f4b3";
+    top: 0px;
+    right: 3px;
+    position: relative;
+    font-size:15px;
+    color: #ac76ff;
+}
+#user-rollover.id-4159727 .showID:after {
+    font-family: Ionicons;
+    background-repeat: no-repeat;
+    content: "Newbie \f4b3";
+    display: inline-block;
+    color: #00BB95!important;
+    font-weight: bold;
+    margin: 0px 0px 0 14px!important;
+    padding-left: 19px;
+    font-size:15px;
+}
