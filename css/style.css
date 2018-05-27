@@ -147,6 +147,7 @@ h1 {
 .container>.navbar-collapse, .container>.navbar-header {
     margin-left: -15px;
     width: 100%;
+    background: #121212;
 }
 ul.nav.navbar-nav.navbar-right {
     width: 100%;
